@@ -1,0 +1,47 @@
+*{
+    background-color: bisque;
+}
+::placeholder{
+    color: white;
+}
+#outer{
+    background-color: rgb(146, 84, 84);
+    border: solid black 3px;
+    border-radius: 2%;
+    width: 400px;
+    height: 400px;
+    border-color: black;
+    margin-left: 35%;
+    margin-top: 10%;
+    position: absolute;
+    text-align: center;
+    box-shadow: 50px 50px 0px rgba(0, 0, 0, 0.1);
+}
+#inner{
+    background-color: rgb(146, 84, 84);
+    
+}
+#input{
+    position: relative;
+    color: white;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    margin-top: 80px;
+    background-color:rgb(84, 136, 146) ;
+}
+#convert{
+    position: relative;
+    margin-top: 20px;
+}
+#output{
+    width: 100px;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 38%;
+    height: 25px;
+    border-radius: 30px;
+    text-align: center;
+    background-color:rgb(84, 136, 146);
+    color: white;
+}
